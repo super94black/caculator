@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="./css.css">
+	<script type="text/javascript" src="./js.js"></script>
+</head>
+<body>
+	<div class="caculator">
+		<form name="caculator" action="" method="get">
+		<div class="caculator-screen">
+			<h6 id="statu">张瀚林同学的计算器</h6>
+		</div>
+		<div id="disp">
+			<input type="text" id="numscreen" name="screen" class="numscreen" value="0" readonly />
+			<div id="onoff">
+				<ul>
+					<li><input type="button" id="on" value="on" onclick="on();"></input></li>
+				</ul>
+			
+			</div>
+		</div>
+		<div class="buttons">
+		
+			<ul>
+				<li><input id="tool" type="button" value="7" onclick="commond(7);"></input></li>
+				<li><input id="tool" type="button" value="8" onclick="commond(8);"></input></li>
+				<li><input id="tool" type="button" value="9" onclick="commond(9);"></input></li>
+				<li><input id="tool" type="button" value="←" onclick="del();"></input></li>
+				<li><input id="tool" type="button" value="C" onclick="clearscreen();"></input></li>
+				<li><input id="tool" type="button" value="4" onclick="commond(4);"></input></li>
+				<li><input id="tool" type="button" value="5" onclick="commond(5);"></input></li>
+				<li><input id="tool" type="button" value="6" onclick="commond(6);"></input></li>
+				<li><input id="tool" type="button" value="+" onclick="plus();"></input></li>
+				<li><input id="tool" type="button" value="-" onclick="minus()"></input></li>
+				<li><input id="tool" type="button" value="1" onclick="commond(1);"></input></li>
+				<li><input id="tool" type="button" value="2" onclick="commond(2);"></input></li>
+				<li><input id="tool" type="button" value="3" onclick="commond(3);"></input></li>
+				<li><input  id="tool" type="button" value="*" onclick="times();"></input></li>
+				<li><input  id="tool" type="button" value="/" onclick="divdive();"></input></li>
+				<li><input id="tool" type="button" value="0" onclick="commond(0);"></input></li>
+				<li><input  id="tool" type="button" value="00" onclick="doublezero();"></input></li>
+				<li><input id="tool"  type="button" value="." onclick="pointer();"></input></li>
+				<li><input id="tool"  type="button" value="%" onclick="persent();"></input></li>
+				<li><input  id="tool" type="button" value="=" onclick="equal();"></input></li>
+								
+			</ul>
+		</form>	
+	</div>
+</body>
+</html>

@@ -1,0 +1,103 @@
+body,li{
+	list-style-type:none;
+}
+input[type=button]{
+	width:50px;
+	height:50px;
+	text-align:center;
+	font:40px bold italic;	
+}
+.caculator{
+	width:600px;
+	height:650px;
+	margin:50px auto;
+	background-color:	#FFA07A;
+	border-radius:10px;
+
+}
+.caculator-screen{
+	width:600px;
+	height:30px;
+	background-color:#FFA07A;
+	border-radius:10px;
+}
+#statu{
+	font-family:Microsoft YaHei;
+	margin-left:20px;
+	font-size:15px;
+	color:#00FFFF;
+
+
+}
+#disp{
+	
+	height:130px;
+	width:600px;
+}
+#numscreen{
+	margin:10px 50px;
+	padding:4px;
+	height:50px;
+	width:500px;
+	font-size:20px;
+	border:1px solid;
+	border-bottom:#f2f2f2 1px solid;
+	border-right:#f2f2f2 1px solid;
+	text-align:right;
+}
+#onoff{
+	float:right;
+	width:600px;
+	height:60px;
+}
+#onoff li{
+	margin-right:40px;
+	margin-top: -10px;
+	float:right;
+	text-align:center;
+	
+}
+#onoff li:hover{
+	background-color:#DC143C;
+}
+#onoff li:active{
+	background-color:#f9f9f9;
+}
+.buttons{
+	
+	margin-top:10px;
+	margin-left:50px;
+	width:450px;
+	height:450px;
+	background-color:	#FFA07A;
+}
+.buttons li{
+	list-style:none;
+	float: left;
+	margin-left:20px;
+	margin-top:50px;
+	width:50px;
+	height:50px;
+	border:2px solid;
+	display: inline;
+	background-color:#eaeaea;
+	text-align:center;
+	font:40px bold italic;
+}
+.buttons li #tool:hover{
+	background-color:#f9f9f9;
+	cursor: pointer;
+}
+.buttons li#tool:active{
+	background-color: #fc0;
+    cursor: pointer;
+}
+/*#tool{
+	width:50px;
+	height:50px;
+	
+	background-color:#eaeaea;
+	text-align:center;
+	font:40px bold italic;
+	list-style:none;
+}
